@@ -1,19 +1,18 @@
 {
-  "name": "meta-ads-mcp-server",
-  "version": "1.0.0",
-  "description": "MCP Server for Meta Ads - connects Claude directly to Meta Marketing API",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.0.0",
-    "express": "^4.18.2",
-    "node-fetch": "^3.3.2",
-    "cors": "^2.8.5"
-  },
-  "engines": {
-    "node": ">=18.0.0"
-  }
+    "name": "meta-ads-mcp-server",
+    "version": "2.0.0",
+    "description": "MCP Server for Meta Ads - connects Claude directly to Meta Marketing API",
+    "main": "index_1.js",
+    "type": "module",
+    "scripts": {
+          "start": "node index_1.js"
+    },
+    "dependencies": {
+          "express": "^4.18.2",
+          "node-fetch": "^3.3.2",
+          "cors": "^2.8.5"
+    },
+    "engines": {
+          "node": ">=18.0.0"
+    }
 }
